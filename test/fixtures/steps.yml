@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  to_do_id: 1
+  bit: MyString
+  done: false
+
+two:
+  to_do_id: 1
+  bit: MyString
+  done: false

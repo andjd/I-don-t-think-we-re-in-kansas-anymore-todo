@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    h4 {display: inline-block}
+    li {cursor: pointer; background: lightblue}
+    </style>
+  </head>
+  <body>
+    <div id="to_dos">IM A LITTLE DIV POT</div>
+    <script>
+      React.render(
+        React.createElement(window.ToDo.ToDoList),
+        document.getElementById("to_dos")
+      )
+    </script>
+
+  </body>
+</html>
